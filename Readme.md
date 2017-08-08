@@ -1,7 +1,8 @@
 # Личный проект «Седона»
 
 * Студент: [Elena Glebkovskaya](https://up.htmlacademy.ru/htmlcss/18/user/448513).
-* Наставник: `Неизвестно`.
+* Наставник: [Екатерина Анплитова] (https://up.htmlacademy.ru/htmlcss/18/user/82969)
+
 
 ---
 
