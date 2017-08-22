@@ -1,7 +1,7 @@
 body {
     font-size: 14px;
     line-height: 21px;
-    font-family: "PT Sans", sans-serif;
+    font-family: "PT Sans","Helvetica","Arial", sans-serif;
     color: #333333;
     font-weight: normal; 
     text-transform: uppercase;
@@ -18,4 +18,3 @@ h2 {
 h3 {
     font-size: 21px;
 }
-
