@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'My Font';
+  src: url('fonts/web/ptsans.woff2') format('woff2'),
+       url('fonts/web/ptsans.woff') format('woff');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'My Font';
+  src: url('fonts/web/ptsansbold.woff2') format('woff2'),
+       url('fonts/web/ptsansbold.woff') format('woff');
+  font-weight: bold;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -41,7 +55,7 @@ a {
 .site-navigation a:hover {
     color: #81b3d2;
 }
-.site-navigation a:focus {
+.site-navigation a:active {
     color: #cacaca;
 }
 
@@ -87,8 +101,8 @@ a {
     line-height: 21px;
 }
 
-.advantage-item,
-.feauture-short-item {
+.advantage-list,
+.feauture-short-list {
    list-style: none;
 }
 
@@ -123,7 +137,7 @@ a {
     background-color: #604e43;
 }
 
-.search-button:focus {
+.search-button:active {
     color: #928a85;
     background-color: #503e33;
 }
@@ -159,7 +173,7 @@ a {
     color: #000000;
 }
 
-.form-button:focus {
+.form-button:active {
     color: #81b3d2;
 }
 
@@ -179,7 +193,7 @@ a {
     color: #ffffff;
 }
 
-.button .find-button:focus {
+.button .find-button:active {
     background-color: #5496bd;
     color: #94b9d2;
 }
@@ -263,20 +277,13 @@ a {
 
 .sort a {
     color: #cdcdcd;
-    text-decoration: underline;
-    text-decoration-color: #81b3d2;
-    text-decoration-style: dotted;
+    border-bottom: dotted #81b3d2;
 }
 .sort a:hover {
     color:#81b3d2;
 }
 .sort a:active {
     color: #000000;
-    text-decoration: none;
-}
-
-.sort a:focus {
-    color: #81b3d2;
     text-decoration: none;
 }
 
@@ -289,7 +296,7 @@ a {
     background-color: #669ec0;
 }
 
-.button-blue:focus {
+.button-blue:active {
     color: #94b9d2;
     background-color: #669ec0;
 }
@@ -303,7 +310,7 @@ a {
     background-color: #604e43;
 }
 
-.button-brown:focus {
+.button-brown:active {
     color: #7e746e;
     background-color: #503e33;
 }
